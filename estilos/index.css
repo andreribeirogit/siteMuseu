@@ -1,0 +1,158 @@
+*{
+    margin: 1%;
+    padding: 1%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#cad2 {
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+}
+#cabecalho{
+    width: 1200px;
+    height: 80px;
+    background-color: rgb(133, 241, 133);
+    float: center;
+}
+#banner{
+  max-width: 100%;
+  height: auto;
+}
+h1{
+    
+    background-color: rgba(0, 0, 0, 0.589);
+    color:rgb(255, 255, 255) 
+    
+}
+h2{
+    
+    background-color: rgba(104, 6, 6, 0.514);
+    color:rgb(255, 255, 255);
+    
+}
+h4{
+    
+    background-color: rgba(51, 7, 7, 0.753);
+    color:rgb(255, 255, 255);
+    font-family: cursive
+}
+.caixaimagem{
+    width: 150px;
+    height: 50px;
+    background-size: 100% 100%;
+}
+
+/* PROJETO  */
+body {
+    background-image: url(../imagem/madeira.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+
+}
+#pai {
+    background-image: url(../imagem/museu.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 90%;
+
+    
+}
+#principal {
+    
+    background-repeat: no-repeat;
+    display: flex;
+    flex-wrap: wrap;
+    background-size: 100% 180%;
+    
+}
+.products-container {
+    justify-content: center;
+  }
+  
+#imagem {
+    width: 70px;
+    height: 70px;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: space-around;
+    gap: 30px;
+    background-image: url(../imagem/im3.jpg);
+    background-size: 80% 80%;
+}
+.checkbox{
+    width: 150px;
+    height: 150px;
+    padding: 50px;
+    image-orientation: flip;
+    color: white;
+    text-align: center;
+}
+.tabela{
+    width: 150px;
+    height: 150px;
+    background-color: aqua;
+    flex: auto;
+    padding: 50px;
+    background-size: 100% 100%;
+    color: rgb(230, 24, 24);
+    text-align: center;
+
+}
+.vest1{
+    width: 150px;
+    height: 150px;
+    padding: 50px;
+    background-image: url(../imagem/imagem1.jpg);
+    background-size: 100% 100%;
+    color: white;
+    text-align: center;
+}
+.vest2{
+    width: 150px;
+    height: 150px;
+    background-color: aqua;
+    padding: 50px;
+    background-image: url(../imagem/imagem2.jpg);
+    background-size: 100% 100%;
+    color: rgb(230, 24, 24);
+    text-align: center;
+
+}
+.vest3{
+    width: 150px;
+    height: 150px;
+    background-color: aqua;
+    padding: 50px;
+    background-image: url(../imagem/imagem3.jpeg);
+    background-size: 100% 100%;
+    color: rgb(253, 37, 37);
+    text-align: center;
+
+}
+
+/* GAP */
+
+
+
+#aligncontentcentergapexample{
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    gap: 50px;
+    background-color: rgba(104, 28, 28, 0.712);
+}
+
+#aligncontentspacearoundexample{
+    display: flex;
+    flex-wrap: wrap;
+    align-content: space-around;
+    background-color: rgb(105, 30, 20);
+}
+#footer{
+    width: 96%;
+    height: 90px;
+    background-color: rgb(238, 145, 168);
+    float: center;
+}
+
+ 
